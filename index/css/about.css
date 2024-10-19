@@ -1,0 +1,352 @@
+/* body */
+* {
+    font-family: "poppins", sans-serif
+}
+
+
+/* navbar menu */
+.navbar {
+    transition: all.5s ease;
+    -webkit-transition: all.5s ease;
+    -moz-transition: all.5s ease;
+    -ms-transition: all.5s ease;
+    -o-transition: all.5s ease;
+}
+
+.nav-item :hover {
+    color: blue;
+}
+
+.navbar i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.navbar i {
+    color: white;
+}
+
+.navbar.scrolling-active {
+    background-color: blueviolet;
+    padding: 10px 0 10px 0;
+}
+
+.dropdown-menu :hover {
+    color: blue;
+}
+
+.dropdown-menu {
+    background-color: blueviolet;
+}
+
+.dropdown-toggle {
+    transition-delay: 3s;
+}
+
+@media (max-width: 990px) {
+    .navbar-collapse {
+        background-color: blueviolet;
+    }
+
+    .navbar i:hover {
+        color: #000000;
+    }
+}
+/* hero section */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6) ), url(../../../../assets/HOME/img/projects/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* row menu */
+
+.about .row .col:nth-child(1) {
+    background-color: #000000;
+}
+
+/* project */
+.project {
+    padding: 100px 0 100px 0;
+}
+
+.project {
+    height: 250px;
+}
+
+.footer {
+    min-height: 100vh;
+    background-color: #15181f;
+    margin-top: 100px;
+}
+
+.row i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer .container .img {
+    height: 100vh;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+/* stylelint-disable stylistic/selector-list-comma-newline-after */
+
+body {
+    background-color: #9b4ae7;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif
+        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+    ;
+    font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif
+        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+    ;
+}
+
+.flex-auto {
+    flex: 0 0 auto;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+/* Pagination */
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+/*
+   * Blog posts
+   */
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #ff0000;
+}
+
+.nav {
+    font-size: large;
+    font-display: inherit;
+    color: crimson;
+}
+
+.li-navbar:hover {
+    background-color: blue;
+}
+
+.carausel-inner img {
+    background-image: linear-gradientrgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.about-img img {
+    width: 35vw;
+    margin-top: 50px;
+    max-width: 50%; /* Maksimal lebar gambar 100px */
+    max-height: 50%px; /* Maksimal tinggi gambar 100px */
+    width: auto; /* Menjaga rasio aspek gambar */
+    height: auto; /* Menjaga rasio aspek gambar */
+    margin-left: 30%;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.about-content h3 {
+    font-size: 2.6rem;
+    font-size: xx-large;
+
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    .section {
+        padding: 10rem 3%;
+    }
+
+    .about-content h2{
+        font-size: 40px;
+    }
+    .about-content h3 {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 871px) {
+    .about-content h2{
+        font-size: 40px;
+    }
+    .about-content p {
+        font-size: 32px;
+    }
+    .about-img img {
+        margin-top: 0;
+         max-width: 80%; /* Maksimal lebar gambar 100px */
+         max-height: 80%; /* Maksimal tinggi gambar 100px */
+        margin-left: 5%;
+    }
+    .about{
+        margin-top: 20px;
+        margin-left: 10px ;
+        display: block;
+    }
+}
+
+@media (max-width: 571px) {
+    .about-content h2{
+        font-size: 20px;
+    }
+    .about-content p {
+        font-size: 12px;
+    }
+    .about-img img {
+        margin-top: 0;
+         max-width: 80%; /* Maksimal lebar gambar 100px */
+         max-height: 80%; /* Maksimal tinggi gambar 100px */
+        margin-left: 5%;
+    }
+    .about{
+        margin-top: 20px;
+        margin-left: 10px ;
+        display: block;
+    }
+}

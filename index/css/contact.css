@@ -1,0 +1,158 @@
+body {
+    background-color: blueviolet;
+}
+
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contact .contact-box .box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact .contact-box .box .fa-star {
+    color: goldenrod;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-box .box h1 {
+    font-weight: 800;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.contact .contact-box .box p {
+    color: var(--text-color-opacity);
+    width: 70%;
+    margin-inline: auto;
+    line-height: 1.7;
+}
+
+.contact .contact-box .form-contact form table {
+    margin-inline: auto;
+}
+
+.contact .contact-box .form-contact form table tr td input,
+.contact .contact-box .form-contact form table tr td textarea {
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+}
+
+.contact .contact-box .form-contact form table tr td input:focus,
+.contact .contact-box .form-contact form table tr td textarea:focus {
+    background-color: var(--secondary-color);
+}
+
+.contact .contact-box .form-contact form table tr:nth-child(1) td:nth-child(1) {
+    padding-right: 5px;
+}
+
+.contact .contact-box .form-contact form table tr:nth-child(1) td:nth-child(2) {
+    padding-left: 5px;
+}
+
+.contact .contact-box .form-contact form table tr td button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* body */
+*{
+    font-family: "poppins", sans-serif
+}
+
+
+/* navbar menu */
+.navbar {
+    transition: all.5s ease ;
+    -webkit-transition: all.5s ease ;
+    -moz-transition: all.5s ease ;
+    -ms-transition: all.5s ease ;
+    -o-transition: all.5s ease ;
+}
+
+.nav-item :hover {
+    color: blue;
+}
+
+.navbar i:hover{
+    color: blue;
+    cursor: pointer;
+}
+.navbar i {
+    color: white;
+}
+    
+.navbar.scrolling-active {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0 10px 0;
+}
+
+.dropdown-menu :hover {
+    color: blue;
+}
+
+.dropdown-menu {
+    background-color: rgb(0, 0, 0);
+}
+
+ .dropdown-toggle {
+    transition-delay: 3s;
+}
+
+@media (max-width: 990px) {
+.navbar-collapse {
+    background-color: blueviolet;
+    }
+    .navbar i:hover {
+    color: #000000;
+    }}
+
+
+/* row menu */
+
+.about .row .col:nth-child(1) {
+    background-color:#000000 ;
+    }
+
+    /* project */
+.project {
+    padding: 100px 0 100px 0;
+}
+
+.project {
+    height: 250px;
+}
+
+.footer {
+    min-height: 100vh;
+    background-color: #15181f;
+    margin-top: 100px;
+}
+
+.row i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer .container .img {
+    height: 100vh;
+}
+
